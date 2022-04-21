@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 header{
     position: fixed;
     height: 80px;
@@ -32,6 +36,14 @@ div.top-header img.my-img{
 
 div.top-header a{
     color: grey;
+}
+
+div.bottom-header{
+    gap: 1rem;
+    color: grey;
+    font-size: .9rem;
+    position: absolute;
+    bottom: 0;
 }
 
 main{
