@@ -3,3 +3,65 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    position: fixed;
+    height: 80px;
+    border-bottom: 1px solid grey;
+    background-color: white;
+    padding: .3rem .9rem;
+}
+
+header div.top-header{
+    justify-content: space-between;
+
+}
+
+div.top-header img.my-logo{
+    width: 7%;
+}
+
+div.top-header img.my-aside-img{
+    width: 15px;
+    height: 15px;
+}
+
+div.top-header img.my-img{
+    width: 14%;
+}
+
+div.top-header a{
+    color: grey;
+}
+
+main{
+    padding-top: 80px;
+}
+
+.central-container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+main h2,
+p{
+    margin: 2rem 0;
+}
+
+ol.top-list,
+ol.bottom-list{
+    padding-left: 16px;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.content-end{
+    justify-content: end;
+}
