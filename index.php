@@ -96,12 +96,12 @@
             ?>
             <h2>
                 <?php 
-                    echo $paragraph["question"] . "<br>" ;
+                    echo $paragraph["question"];
                 ?>
             </h2>
             <p>
                 <?php 
-                    echo $paragraph["answer"] . "<br>" ;
+                    echo $paragraph["answer"];
                 ?>
             </p>
     
